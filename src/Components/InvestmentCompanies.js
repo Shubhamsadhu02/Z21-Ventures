@@ -8,24 +8,25 @@ export default function InestmentCompanies() {
             <div className="investment-header text-center">
                 <h2>Investments History</h2>
             </div>
-            <div className="investment-companies">
-                {/* <ul>
-                    <li>
-                        <img src='/images/Investment/scaler.png' alt=''/>
-                    </li>
-                    <li>
-                        <img src='/images/Investment/mintoak.png' alt=''/>
-                    </li>
-                    <li>
-                        <img src='/images/Investment/kaagaz.png' alt=''/>
-                    </li>
-                    <li>
-                        <img src='/images/Investment/explorex.png' alt=''/>
-                    </li>
-                    <li>
-                        <img src='/images/Investment/opslyft.png' alt=''/>
-                    </li>
-                </ul> */}
+            <div className="investment-companies mt-15">
+                <div className="row d-flex justify-content-center" style={{rowGap: "45px"}}>
+                    <div className="col-lg-4">
+                        <img src='/images/Home/Investment/scaler.png' alt=''/>
+                    </div>
+                    <div className="col-lg-4">
+                        <img src='/images/Home/Investment/mintoak.png' alt=''/>
+                    </div>
+                    <div className="col-lg-4">
+                        <img src='/images/Home/Investment/kaagaz.png' alt=''/>
+                    </div>
+
+                    <div className="col-lg-4">
+                        <img src='/images/Home/Investment/explorex.png' alt=''/>
+                    </div>
+                    <div className="col-lg-4">
+                        <img src='/images/Home/Investment/opslyft.png' alt=''/>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

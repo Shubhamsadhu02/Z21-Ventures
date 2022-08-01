@@ -1,13 +1,14 @@
 import React from 'react'
 import Footer from '../partials/Footer'
+
+import Sidebar from '../partials/Sidebar'
 import InvestmentCompanies from './InvestmentCompanies'
 // import Header from '../partials/Header'
 
 export default function Home() {
   return (
     <>
-    {/* <Header /> */}
-
+    <Sidebar/>
 
     <section className='top-section' style={{background: "url('/images/Home/homebg.png')", backgroundSize: "cover" ,height:"768px"}}>
         <div className="container-fluid text-center">

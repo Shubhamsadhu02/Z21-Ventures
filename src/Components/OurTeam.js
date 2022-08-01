@@ -1,9 +1,13 @@
 import React from 'react'
 import Footer from '../partials/Footer'
 
+import Sidebar from '../partials/Sidebar'
+
 export default function OurTeam() {
   return (
     <>
+   <Sidebar/>
+
     <section>
         <div className="container mt-5">
             <div className="our-team--header">

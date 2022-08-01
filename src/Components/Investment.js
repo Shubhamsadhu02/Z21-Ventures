@@ -1,11 +1,15 @@
 import React from 'react'
 import Footer from '../partials/Footer'
 
+import Sidebar from '../partials/Sidebar'
+
 import InvestmentCompanies from './InvestmentCompanies'
 
 export default function Investment() {
   return (
     <>
+    <Sidebar/>
+
     <section className='top-section' style={{background: "url('/images/Investment/investmentbg.png')", backgroundSize: "cover" ,height:"768px"}}>
         <div className="container-fluid d-flex flex-column justify-content-center align-items-center">
             <div className="top-arrow">
@@ -14,7 +18,7 @@ export default function Investment() {
             <div className="home-header">
                 <h1>Investment Philosophy.</h1>
             </div>
-            <div className="home-paragrapgh mt-4" style={{width: "750px"}}>
+            <div className="home-paragrapgh text-center mt-4" style={{width: "750px"}}>
                 <p>The Indian startup scene is set to explode over the next decade. The country with an abundant pool of world class, cheap technology talent also has access to one of the most diverse and fast-growing home markets. There is also a very strong India-US technology corridor with strong exchanges in technology, people and expertise. This has created a goldilocks moment in India's startup ecosystem. Z21 Ventures Fund will aim to focus and provide value to both the startups and investors. 
                     <br/>
                     <br/>

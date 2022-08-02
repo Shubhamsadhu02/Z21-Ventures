@@ -20,12 +20,12 @@ export default function OurTeam() {
         <div className="container">
             <div className="ourteam-box mt-15">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className="ourteam-img">
                             <img src='/images/OurTeam/Abhinav.png' alt=''/>
                         </div>
                     </div>
-                    <div className="col-lg-6 d-flex flex-column justify-content-center">
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center">
                         <div className="team-name">
                             <h2>Abhinav Shashank</h2>
                         </div>
@@ -41,7 +41,7 @@ export default function OurTeam() {
 
             <div className="ourteam-box mt-15">
                 <div className="row">
-                    <div className="col-lg-6 d-flex flex-column justify-content-center">
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
                         <div className="team-name">
                             <h2>Raj Shekhar Singh</h2>
                         </div>
@@ -49,7 +49,7 @@ export default function OurTeam() {
                             <p>the COO and Cofounder at Hyperspec AI, a deep tech company developing technology for autonomous driving. Raj was one of the founding executives and head of product at Innovaccer between 2017-2022, Raj also worked as a consultant at McKinsey & Co before that. Raj has a BTech from IIT Kharagpur, PhD from UC Berkeley.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-sm-12 col-md-6 col-lg-6 order-md-2 order-1">
                         <div className="ourteam-img">
                             <img src='/images/OurTeam/shekar.png' alt=''/>
                         </div>
@@ -59,12 +59,12 @@ export default function OurTeam() {
 
             <div className="ourteam-box mt-15">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className="ourteam-img">
                             <img src='/images/OurTeam/tony.png' alt=''/>
                         </div>
                     </div>
-                    <div className="col-lg-6 d-flex flex-column justify-content-center">
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center">
                         <div className="team-name">
                             <h2>Tony (Xiuyuan) Hu</h2>
                         </div>
@@ -90,7 +90,7 @@ export default function OurTeam() {
             </div>
 
             <div className="row mt-5" style={{rowGap: "50px"}}>
-                <div className="col-lg-4">
+                <div className="col-sm-12 col-md-4 col-lg-4">
                     <div className="partner-list">
                         <div className="partner-img">
                             <img src='' alt=''/>
@@ -103,7 +103,7 @@ export default function OurTeam() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-sm-12 col-md-4 col-lg-4">
                     <div className="partner-list">
                         <div className="partner-img">
                             <img src='' alt=''/>
@@ -116,7 +116,7 @@ export default function OurTeam() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-sm-12 col-md-4 col-lg-4">
                     <div className="partner-list">
                         <div className="partner-img">
                             <img src='' alt=''/>
@@ -129,7 +129,7 @@ export default function OurTeam() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-sm-12 col-md-4 col-lg-4">
                     <div className="partner-list">
                         <div className="partner-img">
                             <img src='' alt=''/>
@@ -142,7 +142,7 @@ export default function OurTeam() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-sm-12 col-md-4 col-lg-4">
                     <div className="partner-list">
                         <div className="partner-img">
                             <img src='' alt=''/>
@@ -155,7 +155,7 @@ export default function OurTeam() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-sm-12 col-md-4 col-lg-4">
                     <div className="partner-list">
                         <div className="partner-img">
                             <img src='' alt=''/>

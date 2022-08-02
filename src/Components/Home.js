@@ -94,8 +94,8 @@ export default function Home() {
     <section className="investment mt-15">
         <div className="container">
             <div className="row">
-                <div className="col-sm-12 col-md-6 col-lg-6 p-5 d-flex justify-content-center">
-                    <div className="investment-img">
+                <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
+                    <div className="investment-img p-5">
                         <img src='/images/Home/investment.png' alt=''/>
                     </div>
                 </div>

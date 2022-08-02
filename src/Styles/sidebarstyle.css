@@ -39,9 +39,8 @@ body, html {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 30px;
   list-style: none;
-  height: 60px;
+  height: 90px;
 }
 
 .nav-text a {

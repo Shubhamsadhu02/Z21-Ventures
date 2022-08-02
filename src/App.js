@@ -1,10 +1,11 @@
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 import './App.css';
-import './Styles/global.css'
+import './Styles/global.css';
 import Home from './Components/Home';
 import Investment from "./Components/Investment";
 import OurTeam from "./Components/OurTeam";
 import ContactUs from "./Components/ContactUs";
+import './Styles/responsive.css';
 
 function App() {
   return (

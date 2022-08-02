@@ -8,12 +8,12 @@ export default function ContactUs() {
     <section className='contactus'>
         <div className="container mt-3">
             <div className="row">
-                <div className="col-lg-5 d-flex align-items-center" style={{zIndex: 15, height: "768px"}}>
+                <div className="col-lg-5 d-flex align-items-center order-md-1 order-2" style={{zIndex: 15, height: "768px"}}>
                     <div className="contact-img">
                         <img src='images/contact.png' alt='' />
                     </div>
                 </div>
-                <div className="col-lg-7" style={{paddingLeft: "150px"}}>
+                <div className="col-lg-7 order-md-2 order-1" style={{paddingLeft: "150px"}}>
                     <div className="cross-img d-flex justify-content-end">
                         <img src='images/cross.png' alt=''/>
                     </div>

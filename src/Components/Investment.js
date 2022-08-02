@@ -15,7 +15,7 @@ export default function Investment() {
             <div className="top-arrow">
                 <img src='/images/Investment/arrow.png' alt=''/>
             </div>
-            <div className="home-header">
+            <div className="home-header text-center">
                 <h1>Investment Philosophy.</h1>
             </div>
             <div className="home-paragrapgh text-center mt-4" style={{width: "750px"}}>

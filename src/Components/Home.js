@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from '../partials/Footer'
 
 import Sidebar from '../partials/Sidebar'
@@ -19,7 +20,7 @@ export default function Home() {
                 <p>Democratize early stage venture investing for all of us</p>
             </div>
             <div className="contact-btn mt-4">
-                <button type='submit'>Contact us</button>
+                <Link to={'/ContactUs'}><button type='submit'>Contact us</button></Link>
             </div>
         </div>
     </section>
@@ -106,7 +107,7 @@ export default function Home() {
                         <p>The Indian startup scene is set to explode over the next decade. The country with an abundant pool of world class, cheap technology talent also has access to one of the most diverse and fast growing home markets. There is also a very strong India-US technology corridor with strong exchanges in technology, people</p>
                     </div>
                     <div className="read-btn red-btn">
-                        <button type='submit'>Read More</button>
+                        <Link to={'/investment'}><button type='submit'>Read More</button></Link>
                     </div>
                 </div>
             </div>

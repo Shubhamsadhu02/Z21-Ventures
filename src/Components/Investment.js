@@ -10,13 +10,13 @@ export default function Investment() {
     <>
     <Sidebar/>
 
-    <section className='top-section' style={{background: "url('/images/Investment/investmentbg.png')", backgroundSize: "cover" ,height:"768px"}}>
-        <div className="container-fluid d-flex flex-column justify-content-center align-items-center">
+    <section className='top-section' style={{background: "url('/images/Investment/investmentbg.png')", backgroundSize: "cover" ,height:"770px"}}>
+        <div className="container-fluid d-flex flex-column justify-content-center align-items-center" style={{width: "1020px"}}>
             <div className="top-arrow">
                 <img src='/images/Investment/arrow.png' alt=''/>
             </div>
             <div className="home-header text-center">
-                <h1>Investment Philosophy.</h1>
+                <h1>A community to grow and support your company</h1>
             </div>
             <div className="home-paragrapgh text-center mt-4" style={{width: "750px"}}>
                 <p>The Indian startup scene is set to explode over the next decade. The country with an abundant pool of world class, cheap technology talent also has access to one of the most diverse and fast-growing home markets. There is also a very strong India-US technology corridor with strong exchanges in technology, people and expertise. This has created a goldilocks moment in India's startup ecosystem. Z21 Ventures Fund will aim to focus and provide value to both the startups and investors. 
@@ -40,10 +40,10 @@ export default function Investment() {
                         <img src='/images/Investment/build.png' alt=''/>
                     </div>
                     <div className="core-topic mt-4">
-                        <h3>Build a community</h3>
+                        <h3>The power of community</h3>
                     </div>
                     <div className="core-paragraph mt-4">
-                        <p>Build a community of LPs, Startups, other investors, and corporate partners which support the growth of the company and provide value</p>
+                        <p>We are building a community of LPs, startups, other investors, and corporate partners to support the growth of our portfolio company by providing diversified value</p>
                     </div>
                 </div>
                 <div className="col-lg-4">
@@ -51,13 +51,10 @@ export default function Investment() {
                         <img src='/images/Investment/transparent.png' alt=''/>
                     </div>
                     <div className="core-topic mt-4">
-                        <h3>Be Transparent</h3>
+                        <h3>Transparency</h3>
                     </div>
                     <div className="core-paragraph mt-4">
-                        <p>Provide all information transparently to the LPs. Z21 will use Carta platform and Slack to disseminate information and provide documentation.
-                            <br/>
-                            <br/>
-                            Transparent process on selection of startups
+                        <p>Using industry-standard technology to create transparent and standardized process, maintain documentation, and disseminate information
                             </p>
                     </div>
                 </div>
@@ -82,7 +79,7 @@ export default function Investment() {
                 <h2 style={{color: "#FFFFFF"}}>Necessary attribute <br/> for the startups</h2>
             </div>
             <div className="necessary-paragrapgh text-center mt-5" style={{position: "relative", left: "20%" ,width: "650px" }}>
-                <p style={{color: "#FFFFFF"}}>Startups need to be technology focused and should be able to leverage large and affordable technology talent in India to power growth. The weighted average of the following attributes will be taken into consideration when deciding on any investment.</p>
+                <p style={{color: "#FFFFFF"}}>Startups need to be technology focused and should be able to leverage large and affordable technology talent in India to power growth</p>
             </div>
 
             <div className="row" style={{marginTop: "7rem"}}>
@@ -91,7 +88,7 @@ export default function Investment() {
                         <div className="necessary-topic">
                             <h3>Team</h3>
                         </div>
-                        <div className="necessary-list">
+                        {/* <div className="necessary-list">
                             <ul>
                                 <li>Pedigree of founders and team</li>
                                 <li>Work experience of the team</li>
@@ -99,6 +96,9 @@ export default function Investment() {
                                 <li>Co-founder chemistry</li>
                                 <li>Tech talent in the team</li>
                             </ul>
+                        </div> */}
+                        <div className="necessary-paragrapgh">
+                            <p style={{color: "#FFFFFF", width: "280px"}}>A good founding team is critical for the success of any startup. Z21 will especially focus on the Pedigree and experience of the founding team, hustle and motivation, team chemistry and tech talent in the team</p>
                         </div>
                     </div>
                 </div>
@@ -107,12 +107,15 @@ export default function Investment() {
                         <div className="necessary-topic">
                             <h3>Market</h3>
                         </div>
-                        <div className="necessary-list">
+                        {/* <div className="necessary-list">
                             <ul>
                                 <li>Large TAM and SAM</li>
                                 <li>Barrier to entry</li>
                                 <li>Competitive landscape</li>
                             </ul>
+                        </div> */}
+                        <div className="necessary-paragrapgh">
+                            <p style={{color: "#FFFFFF", width: "280px"}}>Market dynamics affect the odds of any startups in succeeding. Z21 will especially value a large and growing market is with high barrier to entry with a favorable competitive landscape</p>
                         </div>
                     </div>
                 </div>
@@ -121,12 +124,15 @@ export default function Investment() {
                         <div className="necessary-topic">
                             <h3>Traction</h3>
                         </div>
-                        <div className="necessary-list">
+                        {/* <div className="necessary-list">
                             <ul>
                                 <li>Product Market Fit</li>
                                 <li>Current revenue</li>
                                 <li>Number of customers</li>
                             </ul>
+                        </div> */}
+                        <div className="necessary-paragrapgh">
+                            <p style={{color: "#FFFFFF", width: "280px"}}>Early-stage traction is indicative of future success of any startup. Z21 will focus on the Product Market Fit, current revenue and Current customers</p>
                         </div>
                     </div>
                 </div>

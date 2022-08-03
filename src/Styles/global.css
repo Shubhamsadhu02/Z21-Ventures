@@ -103,7 +103,7 @@ textarea {
 .contact-head h2
 {
     font-weight: 700;
-    font-size: 56px;
+    font-size: 45px;
     line-height: 66px;
     color: #111318;
 }
@@ -168,7 +168,8 @@ textarea {
 
 .necessary-box 
 {
-    height: 238px;
+    width: 339px;
+    height: 243px;
     border: none;
     border-left: 1px solid #FFFFFF;
     padding-left: 35px;

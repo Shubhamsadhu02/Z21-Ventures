@@ -24,15 +24,10 @@
         height: 25px;
         width: 120px;
     }
-    
-    .nav-text
-    {
-        height: 45px;
-    }
 
     .nav-text a
     {
-        font-size: 20px;
+        font-size: 32px;
     }
 
     .top-section
@@ -40,23 +35,28 @@
         height: 655px !important;
     }
 
+    .top-section .container-fluid
+    {
+        width: 350px !important;
+    }
+
     .home-header h1,
     .our-team--header h1, .partner-header h1
     {
-        font-size: 50px;
+        font-size: 40px;
         line-height: 60px;
     }
 
     .fund-header h2, .investment-header h2, .core-header h2, .necessary-header h2, .interaction-header h2, .contact-head h2
     {
-        font-size: 30px;
+        font-size: 35px;
         line-height: 40px;
     }
 
     .investment-paragraph p, .core-paragraph p, .necessary-paragrapgh p, .interaction-paragraph p, .team-designation h5, .team-paragraph p
     ,.fund-topic h3, .core-topic h3, .partner-name h3
     {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .ventures-funds .row
@@ -89,7 +89,11 @@
     .necessary,
     .partner
     {
-        padding: 30px 0 !important;
+        padding: 40px 0 !important;
+    }
+    .necessary
+    {
+        height: auto !important;
     }
 
     .footer
@@ -101,17 +105,23 @@
     {
         display: flex;
         justify-content: center;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .footer .row .col-lg-4:nth-child(3){
         justify-content: center !important;
     }
 
+    .footer-list ul
+    {
+        padding-left: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
     .footer-list ul li,
     .contactus .col-lg-7
     {
-        padding: 0 6px !important;
+        padding: 0 14px !important;
     }
 
     .top-arrow img
@@ -131,7 +141,8 @@
         row-gap: 20px;
     }
 
-    .necessary-paragrapgh
+    .necessary-paragrapgh,
+    .home-paragrapgh
     {
         left: 0!important;
     }
@@ -150,7 +161,7 @@
 
     .necessary-box
     {
-        height: 140px;
+        height: 190px;
     }
     
     .ourteam-img img
@@ -176,17 +187,24 @@
     }
 
     .overlay{
-        width: 100vw;
-        height: 550px;
+        width: 100%;
+        height: 140px;
         position: absolute;
-        top: 650px;
+        top: 0px;
         left: 0;
         z-index: 10;
     }
 
+    .contact-img img
+    {
+        width: 125px;
+        height: 86px;
+    }
+
     .contactus .col-lg-5
     {
-        height: 550px !important;
+        height: 110px !important;
+        margin-bottom: 30px;
     }
     
     .contact-form input

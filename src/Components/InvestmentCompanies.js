@@ -6,9 +6,9 @@ export default function InvestmentCompanies() {
     <section className='InvestmentCompanies mt-15' style={{background: "#F9FAFA", padding: "150px 153px"}}>
         <div className="container">
             <div className="investment-header text-center">
-                <h2>Investments History</h2>
+                <h2>Our portfolio companies</h2>
             </div>
-            <div className="investment-companies mt-15">
+            <div className="investment-companies" style={{marginTop: "80px"}}>
                 <div className="row d-flex justify-content-center" style={{rowGap: "45px"}}>
                     <div className="col-sm-6 col-lg-4">
                         <img src='/images/Home/Investment/scaler.png' alt=''/>

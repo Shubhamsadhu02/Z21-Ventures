@@ -46,7 +46,7 @@ export default function OurTeam() {
                             <h2>Raj Shekhar Singh</h2>
                         </div>
                         <div className="team-paragraph mt-4">
-                            <p>the COO and Cofounder at Hyperspec AI, a deep tech company developing technology for autonomous driving. Raj was one of the founding executives and head of product at Innovaccer between 2017-2022, Raj also worked as a consultant at McKinsey & Co before that. Raj has a BTech from IIT Kharagpur, PhD from UC Berkeley.</p>
+                            <p>The COO and Cofounder at Hyperspec AI, a deep tech company developing technology for autonomous driving. Raj was one of the founding executives and head of product at Innovaccer between 2017-2022, Raj also worked as a consultant at McKinsey & Co before that. Raj has a BTech from IIT Kharagpur, PhD from UC Berkeley.</p>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6 order-md-2 order-1">

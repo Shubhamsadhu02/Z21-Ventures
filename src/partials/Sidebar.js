@@ -8,7 +8,9 @@ import '../Styles/sidebarstyle.css'
 
 export default function Sidebar() {
     const [sidebar, setSidebar] = useState(false);
+    // const [conatctMenu, setContact] = useState(false);
     const showSidebar = () => setSidebar(!sidebar);
+    // const showContact = () => setContact(!conatctMenu);
 
     const SidebarData = [
         {
@@ -38,11 +40,14 @@ export default function Sidebar() {
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
           <div className="logo">
-                <a href="/" className="navbar-brand"><img src="/images/ventureslogo.svg" alt='' height="28" width="182" /></a>
-            </div>
-            <div className="contact-nav">
-                <Link to={'/ContactUs'}>Contact us</Link>
-            </div>
+              <a href="/" className="navbar-brand"><img src="/images/ventureslogo.svg" alt='' height="28" width="182" /></a>
+          </div>
+          <div className="contact-nav">
+              <Link to={'/ContactUs'}>Contact us</Link>
+              {/* <Link to="#">
+                <ContactUs onClick={showContact}/>
+              </Link> */}
+          </div>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>

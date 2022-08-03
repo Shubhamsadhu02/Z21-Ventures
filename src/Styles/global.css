@@ -14,7 +14,8 @@ body, html {
 
 input:focus,
 textarea:focus {
-    outline: none;
+    outline: 1px solid #111318;
+    color: #111318;
 }
 
 textarea {
@@ -305,4 +306,5 @@ textarea {
 .cross-img img
 {
     cursor: pointer;
+    z-index: 15;
 }

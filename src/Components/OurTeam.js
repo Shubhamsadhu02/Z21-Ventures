@@ -45,6 +45,9 @@ export default function OurTeam() {
                         <div className="team-name">
                             <h2>Raj Shekhar Singh</h2>
                         </div>
+                        <div className="team-designation mt-4">
+                            <h5>General Partner</h5>
+                        </div>
                         <div className="team-paragraph mt-4">
                             <p>The COO and Cofounder at Hyperspec AI, a deep tech company developing technology for autonomous driving. Raj was one of the founding executives and head of product at Innovaccer between 2017-2022, Raj also worked as a consultant at McKinsey & Co before that. Raj has a BTech from IIT Kharagpur, PhD from UC Berkeley.</p>
                         </div>
@@ -69,7 +72,7 @@ export default function OurTeam() {
                             <h2>Tony (Xiuyuan) Hu</h2>
                         </div>
                         <div className="team-designation mt-4">
-                            <h5>Legal counsellor</h5>
+                            <h5>Legal counsel</h5>
                         </div>
                         <div className="team-paragraph mt-4">
                             <p>He has a JD from Berkeley Law and a BA from UC Berkeley. He is the founder and managing partner of Hu LLP. Mr. Hu also serves as the assistant manager and in-house counsel of a 501(c)(3) non-profit organization based in the Bay Area.

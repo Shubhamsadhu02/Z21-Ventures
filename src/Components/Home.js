@@ -4,14 +4,13 @@ import Footer from '../partials/Footer'
 
 import Sidebar from '../partials/Sidebar'
 import InvestmentCompanies from './InvestmentCompanies'
-// import Header from '../partials/Header'
 
 export default function Home() {
   return (
     <>
     <Sidebar/>
 
-    <section className='top-section' style={{background: "url('/images/Home/homebg.png')", backgroundSize: "cover" ,height:"768px"}}>
+    <section className='top-section' style={{background: "url('/images/Home/homebg.png')", backgroundSize: "cover" ,height:"700px"}}>
         <div className="container-fluid text-center" style={{width: "890px"}}>
             <div className="home-header">
                 <h1>We help companies go from zero to one</h1>
@@ -95,19 +94,19 @@ export default function Home() {
     <section className="investment mt-15">
         <div className="container">
             <div className="row">
-                <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
-                    <div className="investment-img p-5">
-                        <img src='/images/Home/investment.png' alt=''/>
+                <div className="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center">
+                    <div className="investment-img">
+                        <img src='/images/Home/investment.png' alt='' height={307} width={448}/>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-6 col-lg-6">
+                <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center ">
                     <div className="investment-header">
                         <h2>A community to grow and support your company</h2>
                     </div>
-                    <div className="investment-paragraph">
+                    <div className="investment-paragraph mt-4">
                         <p>The Indian startup scene is exploding. Z21 Ventures aims to support it and help it grow further by creating a community of mentor investors who bring in their expertise at the early stages of the company building process</p>
                     </div>
-                    <div className="read-btn red-btn">
+                    <div className="read-btn red-btn mt-4">
                         <Link to={'/investment'}><button type='submit'>Read More</button></Link>
                     </div>
                 </div>

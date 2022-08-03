@@ -13,17 +13,16 @@ export default function ContactUs() {
     <div className="overlay"></div>
     <section className='contactus'>
         <div className="container mt-3">
+            <div className="cross-img d-flex justify-content-end" onClick={handleBack}>
+                <img src='images/cross.png' alt=''/>
+            </div>
             <div className="row">
-                <div className="col-sm-12 col-lg-5 d-flex" style={{zIndex: 15}}>
+                <div className="col-sm-12 col-lg-5 d-flex justify-content-center" style={{zIndex: 15}}>
                     <div className="contact-img d-flex justify-content-center align-items-center">
                         <img src='images/contact.png' alt='' />
                     </div>
                 </div>
-                <div className="col-sm-12 col-lg-7" style={{paddingLeft: "150px"}}>
-                    <div className="cross-img d-flex justify-content-end" onClick={handleBack}>
-                        <img src='images/cross.png' alt=''/>
-                    </div>
-                    
+                <div className="col-sm-12 col-lg-7" style={{paddingLeft: "150px"}}>                    
                     <div className="contact-head mb-4">
                         <h2>Contact us</h2>
                     </div>

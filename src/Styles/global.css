@@ -301,3 +301,8 @@ textarea {
     justify-content: center;
     align-items: center;
 }
+
+.cross-img img
+{
+    cursor: pointer;
+}

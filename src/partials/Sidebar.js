@@ -14,8 +14,13 @@ export default function Sidebar() {
 
     const SidebarData = [
         {
-          title: 'Investment Till Now',
+          title: 'Home',
           path: '/',
+          cName: 'nav-text'
+        },
+        {
+          title: 'Investment Thesis',
+          path: '/investment',
           cName: 'nav-text'
         },
         {

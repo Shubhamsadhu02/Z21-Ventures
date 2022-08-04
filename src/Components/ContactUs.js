@@ -14,7 +14,7 @@ export default function ContactUs() {
     <section className='contactus'>
         <div className="container mt-3">
             <div className="cross-img d-flex justify-content-end" onClick={handleBack}>
-                <img src='images/cross.png' alt=''/>
+                <img src='images/cross.svg' alt=''/>
             </div>
             <div className="row">
                 <div className="col-sm-12 col-lg-5 d-flex justify-content-center" style={{zIndex: 15}}>

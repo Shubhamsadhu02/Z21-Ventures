@@ -11,20 +11,20 @@ export default function InvestmentCompanies() {
             <div className="investment-companies" style={{marginTop: "80px"}}>
                 <div className="row d-flex justify-content-center" style={{rowGap: "45px"}}>
                     <div className="col-sm-6 col-lg-4">
-                        <img src='/images/Home/Investment/scaler.png' alt=''/>
+                        <a href='https://www.scaler.com/' target="framename"><img src='/images/Home/Investment/scaler.png' alt=''/></a>
                     </div>
                     <div className="col-sm-6 col-lg-4">
-                        <img src='/images/Home/Investment/mintoak.png' alt=''/>
+                        <a href='https://www.mintoak.com/' target="framename"><img src='/images/Home/Investment/mintoak.png' alt=''/></a>
                     </div>
                     <div className="col-sm-6 col-lg-4">
-                        <img src='/images/Home/Investment/kaagaz.png' alt=''/>
+                        <a href='https://kaagaz.app/' target="framename"><img src='/images/Home/Investment/kaagaz.png' alt=''/></a>
                     </div>
 
                     <div className="col-sm-6 col-lg-4">
-                        <img src='/images/Home/Investment/explorex.png' alt=''/>
+                        <a href='https://www.explorex.io/' target="framename"><img src='/images/Home/Investment/explorex.png' alt=''/></a>
                     </div>
                     <div className="col-sm-6 col-lg-4">
-                        <img src='/images/Home/Investment/opslyft.png' alt=''/>
+                        <a href='https://opslyft.com/' target="framename"><img src='/images/Home/Investment/opslyft.png' alt=''/></a>
                     </div>
                 </div>
             </div>

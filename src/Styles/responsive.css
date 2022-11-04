@@ -219,7 +219,7 @@
         height: 55px;
     }
 
-    .contact-form button
+    .contact-form .form-submit
     {
         padding: 16px 150px;
         font-size: 16px;
@@ -252,4 +252,36 @@
         height: 35px;
     }
 
+    .partner .row .col-sm-12
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog-details__page .container,
+    .blog
+    {
+        padding: 50px 20px !important;
+    }
+    .blog-image img
+    {
+        width: 360px;
+        height: 203px;
+    }
+    .video iframe
+    {
+        width: 320px;
+        height: 180px;
+    }
+
+}
+
+.attachment input[type = "file"]
+{
+    width: 150px;
+}
+
+.contact-form .form-submit1
+{
+    padding: 16px 84px;
 }

@@ -122,7 +122,9 @@ textarea {
 
 .fund-topic h3,
 .core-topic h3,
-.partner-name h3
+.partner-name h3,
+.video-head h3,
+.blog-head h3
 {
     font-weight: 700;
     font-size: 20px;
@@ -143,7 +145,8 @@ textarea {
 .necessary-paragrapgh p,
 .interaction-paragraph p,
 .team-designation h5,
-.team-paragraph p
+.team-paragraph p,
+.blog-paragraph p
 {
     font-weight: 400;
     font-size: 18px;
@@ -235,12 +238,6 @@ textarea {
     height: 463px;
 }
 
-.partner-img img
-{
-    width: 360px;
-    height: 352px;
-}
-
 .partner-linkdn i
 {
     margin-top: 1rem;
@@ -269,7 +266,7 @@ textarea {
     height: 128px;
 }
 
-.contact-form button
+.contact-form .form-submit
 {
     padding: 24px 207px;
     background: #BE3222;
@@ -308,3 +305,97 @@ textarea {
     cursor: pointer;
     z-index: 15;
 }
+
+.video-date h5,
+.blog-date h5
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.right-arrow i,
+.left-arrow i
+{
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.video iframe
+{
+    width: 650px;
+    height: 380px;
+}
+
+.short-video iframe
+{
+    width: 178px;
+    height: 112px;
+}
+
+.latest-blogs__header h3
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111318;
+}
+
+.blog-image img
+{
+    width: 770px;
+    height: 435px;
+}
+
+.attachment
+{
+    position: relative;
+    overflow: hidden;
+
+    width: 463px;
+    height: 68px;
+    border: 1px solid #E9EBEC;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #515B70;
+    padding: 20px;
+}
+
+.attachment input[type = "file"]{
+    position: absolute;
+    transform: scale(1);
+    opacity: 0;
+    cursor: pointer;
+    width: 320px;
+  }
+
+  .attachment-icon i
+  {
+    font-size: 20px;
+    font-weight: 400;
+    color: #515B70;
+  }
+  .attachment-icon button
+  {
+    background: none;
+    border: none;
+  }
+  .btn-primary:hover
+  {
+    background-color: #FFFFFF !important;
+  }
+
+  .modal-dialog
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal-content
+  {
+    width: 65%;
+  }

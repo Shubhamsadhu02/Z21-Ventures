@@ -6,6 +6,8 @@ import Investment from "./Components/Investment";
 import OurTeam from "./Components/OurTeam";
 import ContactUs from "./Components/ContactUs";
 import './Styles/responsive.css';
+import OurPortfolio from "./Components/OurPortfolio";
+import Community from "./Components/Community";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/investment" element={<Investment />} ></Route>
         <Route path="/ourteam" element={<OurTeam />} ></Route>
         <Route path="/contactus" element={<ContactUs />} ></Route>
+        <Route path="/portfolio" element={<OurPortfolio />} ></Route>
+        <Route path="/community" element={<Community/>} ></Route>
       </Routes>
     </Router>
     </>

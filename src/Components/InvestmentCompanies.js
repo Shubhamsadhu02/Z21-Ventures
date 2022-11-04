@@ -3,7 +3,7 @@ import React from 'react'
 export default function InvestmentCompanies() {
   return (
     <>
-    <section className='InvestmentCompanies mt-15' style={{background: "#F9FAFA", padding: "150px 153px"}}>
+    <section className='InvestmentCompanies' style={{background: "#F9FAFA", padding: "150px 153px"}}>
         <div className="container">
             <div className="investment-header text-center">
                 <h2>Our portfolio companies</h2>
@@ -25,6 +25,20 @@ export default function InvestmentCompanies() {
                     </div>
                     <div className="col-sm-6 col-lg-4">
                         <a href='https://opslyft.com/' target="framename"><img src='/images/Home/Investment/opslyft.png' alt=''/></a>
+                    </div>
+
+                    <div className="col-sm-6 col-lg-4">
+                        <a href='https://hyperspec.ai/' target="framename"><img src='/images/Home/Investment/hyperspec.png' alt=''/></a>
+                    </div>
+                    <div className="col-sm-6 col-lg-4">
+                        <a href='https://hennozzles.com/' target="framename"><img src='/images/Home/Investment/hen.png' alt=''/></a>
+                    </div>
+
+                    <div className="col-sm-6 col-lg-4">
+                        <a href='https://www.truefoundry.com/' target="framename"><img src='/images/Home/Investment/truefoundry.png' alt=''/></a>
+                    </div>
+                    <div className="col-sm-6 col-lg-4">
+                        <a href='https://www.inito.com/' target="framename"><img src='/images/Home/Investment/inito.png' alt=''/></a>
                     </div>
                 </div>
             </div>

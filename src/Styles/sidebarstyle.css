@@ -22,8 +22,7 @@ body, html {
   background-color: #FFFFFF;
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
+  
   position: fixed;
   top: 0;
   left: -100%;
@@ -62,6 +61,10 @@ body, html {
 
 .nav-menu-items {
   width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
 }
 
 .navbar-toggle {
@@ -71,10 +74,6 @@ body, html {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-
-span {
-  margin-left: 16px;
 }
 
 .menu-bars

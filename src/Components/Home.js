@@ -91,7 +91,7 @@ export default function Home() {
         </div>
     </section>
 
-    <section className="investment mt-15">
+    <section className="investment mt-15 mb-15">
         <div className="container">
             <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center">

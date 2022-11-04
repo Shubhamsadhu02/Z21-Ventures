@@ -19,20 +19,35 @@ export default function Sidebar() {
           cName: 'nav-text'
         },
         {
+          title: 'Portfolio Companies',
+          path: '/portfolio',
+          cName: 'nav-text'
+        },
+        {
           title: 'Investment Thesis',
           path: '/investment',
           cName: 'nav-text'
         },
         {
-            title: 'Our Team',
-            path: '/ourteam',
-            cName: 'nav-text'
+          title: 'Z21 Community',
+          path: '/community',
+          cName: 'nav-text'
+        },
+        {
+          title: 'Our Team',
+          path: '/ourteam',
+          cName: 'nav-text'
+        },
+        {
+          title: 'Z21 blog',
+          path: '/contactus',
+          cName: 'nav-text'
         },
         {
             title: 'Contact us',
             path: '/contactus',
             cName: 'nav-text'
-        },
+        }
     ];
 
   return (
@@ -55,12 +70,12 @@ export default function Sidebar() {
           </div>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-          <ul className='nav-menu-items' onClick={showSidebar}>
-            <li className='navbar-toggle'>
-              <Link to='#' className='menu-bars'>
+        <div className='navbar-toggle'>
+              <Link to='#' className='menu-bars' onClick={showSidebar}>
                 <AiIcons.AiOutlineClose style={{color: "black"}} />
               </Link>
-            </li>
+            </div>
+          <ul className='nav-menu-items' onClick={showSidebar}>   
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>

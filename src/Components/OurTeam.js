@@ -41,7 +41,7 @@ export default function OurTeam() {
 
             <div className="ourteam-box mt-15">
                 <div className="row">
-                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center">
                         <div className="team-name">
                             <h2>Raj Shekhar Singh</h2>
                         </div>
@@ -52,7 +52,7 @@ export default function OurTeam() {
                             <p>The COO and Cofounder at Hyperspec AI, a deep tech company developing technology for autonomous driving. Raj was one of the founding executives and head of product at Innovaccer between 2017-2022, Raj also worked as a consultant at McKinsey & Co before that. Raj has a BTech from IIT Kharagpur, PhD from UC Berkeley.</p>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-6 col-lg-6 order-md-2 order-1">
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-end">
                         <div className="ourteam-img">
                             <img src='/images/OurTeam/shekar.png' alt=''/>
                         </div>
@@ -69,7 +69,7 @@ export default function OurTeam() {
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center">
                         <div className="team-name">
-                            <h2>Tony (Xiuyuan) Hu</h2>
+                            <h2>Tony Hu</h2>
                         </div>
                         <div className="team-designation mt-4">
                             <h5>Legal counsel</h5>
@@ -83,91 +83,86 @@ export default function OurTeam() {
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section className='partner mt-15' style={{background: "#F9FAFA", padding: "150px 100px"}}>
-        <div className="container">
-            <div className="partner-header text-center">
-                <h1>Partners</h1>
+            <div className="ourteam-box mt-15">
+                <div className="row">
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center">
+                        <div className="team-name">
+                            <h2>Jyotika Gupta</h2>
+                        </div>
+                        <div className="team-designation mt-4">
+                            <h5>Operating Partner</h5>
+                        </div>
+                        <div className="team-paragraph mt-4">
+                            <p>Jyotika Gupta is a business operations leader at Glassdoor, based out of San Francisco. Prior to joining Glassdoor, Jyotika worked in various strategy and analytical roles at Marketsandmarkets, Accenture and Merilytics. Jyotika has an MBA from Indian School of Business and completed her undergraduate studies from IIT Kharagpur.</p>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-end">
+                        <div className="ourteam-img">
+                            <img src='/images/OurTeam/jyotika.png' alt=''/>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div className="row mt-5" style={{rowGap: "50px"}}>
-                <div className="col-sm-12 col-md-4 col-lg-4">
-                    <div className="partner-list">
-                        <div className="partner-img">
-                            <img src='' alt=''/>
+            <div className="ourteam-box mt-15">
+                <div className="row">
+                    <div className="col-sm-12 col-md-6 col-lg-6">
+                        <div className="ourteam-img">
+                            <img src='/images/OurTeam/anand.png' alt=''/>
                         </div>
-                        <div className="partner-name mt-4">
-                            <h3>Name of partner</h3>
+                    </div>
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center">
+                        <div className="team-name">
+                            <h2>Anand Akela</h2>
                         </div>
-                        <div className="partner-linkdn">
-                            <i class="fab fa-linkedin"></i>
+                        <div className="team-designation mt-4">
+                            <h5>Operating Partner</h5>
+                        </div>
+                        <div className="team-paragraph mt-4">
+                            <p>Anand is a seasoned GTM strategy and marketing executive. Most recently, he was the VP of Marketing at Nutanix. Prior to Nutanix, Anand led various product marketing, product management, and engineering roles at Tricentis, CA Technologies, AppDynamics, Oracle, and HP. Anand serves on the board of TiE, a non-profit with a goal to foster entrepreneurship. Anand has an MBA from Fuqua School of Business, Duke University, and a B.S. in Computer Science from Pune University.</p>
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-4 col-lg-4">
-                    <div className="partner-list">
-                        <div className="partner-img">
-                            <img src='' alt=''/>
+            </div>
+
+            <div className="ourteam-box mt-15">
+                <div className="row">
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center">
+                        <div className="team-name">
+                            <h2>Dibyendu Rana</h2>
                         </div>
-                        <div className="partner-name mt-4">
-                            <h3>Name of partner</h3>
+                        <div className="team-designation mt-4">
+                            <h5>Operating Partner</h5>
                         </div>
-                        <div className="partner-linkdn">
-                            <i class="fab fa-linkedin"></i>
+                        <div className="team-paragraph mt-4">
+                            <p>Dibyendu is a senior technologist at Apple. Prior to Apple, Dibyendu was an engineer at Fairchild Semiconductor. Dibyendu has a graduate degree in Power Electronics from Texas A&M University and a BTech from IIT Kharagpur.</p>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-end">
+                        <div className="ourteam-img">
+                            <img src='/images/OurTeam/dibyendu.png' alt=''/>
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-4 col-lg-4">
-                    <div className="partner-list">
-                        <div className="partner-img">
-                            <img src='' alt=''/>
-                        </div>
-                        <div className="partner-name mt-4">
-                            <h3>Name of partner</h3>
-                        </div>
-                        <div className="partner-linkdn">
-                            <i class="fab fa-linkedin"></i>
+            </div>
+
+            <div className="ourteam-box mt-15">
+                <div className="row">
+                    <div className="col-sm-12 col-md-6 col-lg-6">
+                        <div className="ourteam-img">
+                            <img src='/images/OurTeam/ankit.png' alt=''/>
                         </div>
                     </div>
-                </div>
-                <div className="col-sm-12 col-md-4 col-lg-4">
-                    <div className="partner-list">
-                        <div className="partner-img">
-                            <img src='' alt=''/>
+                    <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center">
+                        <div className="team-name">
+                            <h2>Ankit Bhangar</h2>
                         </div>
-                        <div className="partner-name mt-4">
-                            <h3>Name of partner</h3>
+                        <div className="team-designation mt-4">
+                            <h5>Operating Partner</h5>
                         </div>
-                        <div className="partner-linkdn">
-                            <i class="fab fa-linkedin"></i>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm-12 col-md-4 col-lg-4">
-                    <div className="partner-list">
-                        <div className="partner-img">
-                            <img src='' alt=''/>
-                        </div>
-                        <div className="partner-name mt-4">
-                            <h3>Name of partner</h3>
-                        </div>
-                        <div className="partner-linkdn">
-                            <i class="fab fa-linkedin"></i>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm-12 col-md-4 col-lg-4">
-                    <div className="partner-list">
-                        <div className="partner-img">
-                            <img src='' alt=''/>
-                        </div>
-                        <div className="partner-name mt-4">
-                            <h3>Name of partner</h3>
-                        </div>
-                        <div className="partner-linkdn">
-                            <i class="fab fa-linkedin"></i>
+                        <div className="team-paragraph mt-4">
+                            <p>Ankit is the Director & Head of Unsecured Risk Measurement at Barclays UK. Ankit is an experienced analytics and risk management professional with extensive experience in the financial services industry. Ankit has a Masters in Mathematics and Computing from IIT Kharagpur.</p>
                         </div>
                     </div>
                 </div>

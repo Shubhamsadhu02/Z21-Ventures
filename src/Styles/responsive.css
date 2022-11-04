@@ -25,6 +25,12 @@
         width: 120px;
     }
 
+    .nav-menu-items
+    {
+        display: block;
+        max-width: 100%;
+    }
+
     .nav-text a
     {
         font-size: 32px;

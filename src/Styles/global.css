@@ -371,31 +371,36 @@ textarea {
     opacity: 0;
     cursor: pointer;
     width: 320px;
-  }
+}
 
-  .attachment-icon i
-  {
-    font-size: 20px;
-    font-weight: 400;
-    color: #515B70;
-  }
-  .attachment-icon button
-  {
-    background: none;
-    border: none;
-  }
-  .btn-primary:hover
-  {
-    background-color: #FFFFFF !important;
-  }
+.attachment-icon i
+{
+font-size: 20px;
+font-weight: 400;
+color: #515B70;
+}
+.attachment-icon button
+{
+background: none;
+border: none;
+}
+.btn-primary:hover
+{
+background-color: #FFFFFF !important;
+}
 
-  .modal-dialog
-  {
-    display: flex;
-    justify-content: center;
-  }
+.modal-dialog
+{
+display: flex;
+justify-content: center;
+}
 
-  .modal-content
-  {
-    width: 65%;
-  }
+.modal-content
+{
+width: 65%;
+}
+
+.view-more button
+{
+    display: none;
+}

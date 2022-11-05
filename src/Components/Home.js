@@ -11,11 +11,11 @@ export default function Home() {
     <Sidebar/>
 
     <section className='top-section' style={{background: "url('/images/Home/homebg.png')", backgroundSize: "cover" ,height:"700px"}}>
-        <div className="container-fluid text-center" style={{width: "890px"}}>
+        <div className="container-fluid text-center d-flex flex-column align-items-center" style={{width: "890px"}}>
             <div className="home-header">
                 <h1>We help companies go from zero to one</h1>
             </div>
-            <div className="home-paragrapgh text-center mt-5" style={{width: "573px", position: "relative", left: "16%"}}>
+            <div className="home-paragrapgh text-center mt-5" style={{width: "573px"}}>
                 <p>A venture fund for early-stage companies that are looking to drive growth by leveraging technology and talent in India</p>
             </div>
             <div className="contact-btn mt-5">

@@ -245,7 +245,6 @@ export default function Community() {
 
 
 function loading(){
-
     
     let partners_list=[...document.querySelectorAll('.partner-list__container')];
     for(var i=currentItem; i<currentItem+6; i++){

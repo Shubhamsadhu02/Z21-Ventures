@@ -140,7 +140,7 @@ export default function Investment() {
         </div>
     </section>
 
-    <section className='interaction mt-15'>
+    <section className='interaction mt-15 mb-15'>
         <div className="container">
             <div className="row">
                 <div className="col-lg-5 d-flex flex-column justify-content-center align-items-center" style={{paddingRight: "65px"}}>

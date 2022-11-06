@@ -44,6 +44,8 @@ export default function ContactUs() {
                                     </div>
                                     <div className="col-lg-12">
                                         <textarea type="text" style={{ marginBottom: "0" }} placeholder='Description'></textarea>
+                                    </div>
+                                    <div className="col-lg-12">
                                         <div type='submit' className="attachment d-flex justify-content-between"> Attach file or link
                                             <input type="file" />
                                             <div className="attachment-icon d-flex ">
@@ -84,11 +86,11 @@ function MyVerticallyCenteredModal(props) {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-            <form className='contact-form'>
-                <input type="text" placeholder="Name Link"></input>
-                <input type="url" placeholder="Paste link here"></input>
-                <button className='form-submit form-submit1 mt-5' type='submit'>Add</button>
-            </form>
+                <form className='contact-form'>
+                    <input type="text" placeholder="Name Link"></input>
+                    <input type="url" placeholder="Paste link here"></input>
+                    <button className='form-submit form-submit1 mt-5' type='submit'>Add</button>
+                </form>
             </Modal.Body>
         </Modal>
     );

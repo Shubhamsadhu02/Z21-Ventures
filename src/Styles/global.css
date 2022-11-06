@@ -371,6 +371,7 @@ textarea {
     opacity: 0;
     cursor: pointer;
     width: 320px;
+    height: 28px;
 }
 
 .attachment-icon i

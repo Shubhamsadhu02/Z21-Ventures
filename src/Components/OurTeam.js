@@ -90,9 +90,9 @@ export default function OurTeam() {
                         <div className="team-name">
                             <h2>Jyotika Gupta</h2>
                         </div>
-                        <div className="team-designation mt-4">
+                        {/* <div className="team-designation mt-4">
                             <h5>Operating Partner</h5>
-                        </div>
+                        </div> */}
                         <div className="team-paragraph mt-4">
                             <p>Jyotika Gupta is a business operations leader at Glassdoor, based out of San Francisco. Prior to joining Glassdoor, Jyotika worked in various strategy and analytical roles at Marketsandmarkets, Accenture and Merilytics. Jyotika has an MBA from Indian School of Business and completed her undergraduate studies from IIT Kharagpur.</p>
                         </div>
@@ -116,9 +116,9 @@ export default function OurTeam() {
                         <div className="team-name">
                             <h2>Anand Akela</h2>
                         </div>
-                        <div className="team-designation mt-4">
+                        {/* <div className="team-designation mt-4">
                             <h5>Operating Partner</h5>
-                        </div>
+                        </div> */}
                         <div className="team-paragraph mt-4">
                             <p>Anand is a seasoned GTM strategy and marketing executive. Most recently, he was the VP of Marketing at Nutanix. Prior to Nutanix, Anand led various product marketing, product management, and engineering roles at Tricentis, CA Technologies, AppDynamics, Oracle, and HP. Anand serves on the board of TiE, a non-profit with a goal to foster entrepreneurship. Anand has an MBA from Fuqua School of Business, Duke University, and a B.S. in Computer Science from Pune University.</p>
                         </div>
@@ -132,9 +132,9 @@ export default function OurTeam() {
                         <div className="team-name">
                             <h2>Dibyendu Rana</h2>
                         </div>
-                        <div className="team-designation mt-4">
+                        {/* <div className="team-designation mt-4">
                             <h5>Operating Partner</h5>
-                        </div>
+                        </div> */}
                         <div className="team-paragraph mt-4">
                             <p>Dibyendu is a senior technologist at Apple. Prior to Apple, Dibyendu was an engineer at Fairchild Semiconductor. Dibyendu has a graduate degree in Power Electronics from Texas A&M University and a BTech from IIT Kharagpur.</p>
                         </div>
@@ -158,9 +158,9 @@ export default function OurTeam() {
                         <div className="team-name">
                             <h2>Ankit Bhangar</h2>
                         </div>
-                        <div className="team-designation mt-4">
+                        {/* <div className="team-designation mt-4">
                             <h5>Operating Partner</h5>
-                        </div>
+                        </div> */}
                         <div className="team-paragraph mt-4">
                             <p>Ankit is the Director & Head of Unsecured Risk Measurement at Barclays UK. Ankit is an experienced analytics and risk management professional with extensive experience in the financial services industry. Ankit has a Masters in Mathematics and Computing from IIT Kharagpur.</p>
                         </div>

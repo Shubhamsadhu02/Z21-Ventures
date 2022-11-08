@@ -401,7 +401,7 @@ justify-content: center;
 width: 65%;
 }
 
-.view-more button
+.view-more__btn
 {
     display: none;
 }

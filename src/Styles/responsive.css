@@ -242,7 +242,7 @@
         height: 35px;
     }
 
-    .partner .row .col-sm-12 {
+    .partner .row .partner-list__container {
         display: flex;
         justify-content: center;
     }
@@ -271,8 +271,8 @@
         padding: 16px 84px;
     }
 
-    .view-more button {
-        display: initial;
+    .view-more__btn {
+        display: block;
         padding: 16px 40px;
         border: 1px solid #BE3222;
         background: #BE3222;

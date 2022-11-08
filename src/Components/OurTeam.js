@@ -162,7 +162,7 @@ export default function OurTeam() {
                             <h5>Operating Partner</h5>
                         </div> */}
                         <div className="team-paragraph mt-4">
-                            <p>Ankit is the Director & Head of Unsecured Risk Measurement at Barclays UK. Ankit is an experienced analytics and risk management professional with extensive experience in the financial services industry. Ankit has a Masters in Mathematics and Computing from IIT Kharagpur.</p>
+                            <p>Ankit Bhangar is Director - Risk Measurement at Barclays. Ankit is an experienced risk management & analytics professional with extensive experience in the financial services industry. Ankit has a Masters in Mathematics and Computing from IIT Kharagpur.</p>
                         </div>
                     </div>
                 </div>

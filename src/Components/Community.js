@@ -193,6 +193,26 @@ let partners = [
         image: "Aayush.png",
         name: "Aayush Kumar",
         linkdln: "https://www.linkedin.com/in/aayushkumarjarvis/"
+    },
+    {
+        image: "paul.png",
+        name: "R Paul Singh",
+        linkdln: "https://www.linkedin.com/in/rpaulsingh"
+    },
+    {
+        image: "piyush.png",
+        name: "Piyush Agarwal",
+        linkdln: "https://www.linkedin.com/in/piyush-agarwal-21244213/"
+    },
+    {
+        image: "akhilesh.png",
+        name: "Akhilesh Gupta",
+        linkdln: "https://www.linkedin.com/in/akgup/"
+    },
+    {
+        image: "ruchi.png",
+        name: "Ruchi Garg",
+        linkdln: "http://www.linkedin.com/in/ruchigargmd"
     }
 ];
 
@@ -231,8 +251,8 @@ export default function Community() {
                     }
                     </div>
 
-                    <div className="view-more mt-5 text-center">
-                        <button type='button' id='view-more' onClick={loading}>View More</button>
+                    <div className="view-more mt-5 d-flex justify-content-center">
+                        <button type='button' id='view-more' className='view-more__btn' onClick={loading}>View More</button>
                     </div>
 
                 </div>
@@ -252,7 +272,7 @@ function loading(){
     }
     currentItem+=6;
 
-    let viewMoreBtn= document.querySelectorAll('.view-more button');
+    let viewMoreBtn= document.querySelectorAll('.view-more__btn');
     if(currentItem>=partners_list.length){
         viewMoreBtn.style.display='none';
     }

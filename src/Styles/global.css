@@ -216,7 +216,8 @@ textarea {
 }
 
 .our-team--header h1,
-.partner-header h1
+.partner-header h1,
+.press-release h1
 {
     font-weight: 700;
     font-size: 80px;
@@ -404,4 +405,12 @@ width: 65%;
 .view-more__btn
 {
     display: none;
+}
+
+.article-head h4
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #111318;
 }

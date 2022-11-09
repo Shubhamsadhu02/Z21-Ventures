@@ -213,6 +213,11 @@ let partners = [
         image: "ruchi.png",
         name: "Ruchi Garg",
         linkdln: "http://www.linkedin.com/in/ruchigargmd"
+    },
+    {
+        image: "pallaw.png",
+        name: "Pallaw Sharma",
+        linkdln: "https://www.linkedin.com/in/pallaw-sharma-b803a12/"
     }
 ];
 

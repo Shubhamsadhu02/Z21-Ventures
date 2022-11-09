@@ -10,6 +10,7 @@ import OurPortfolio from "./Components/OurPortfolio";
 import Community from "./Components/Community";
 import Blog from "./Components/Blog";
 import BlogDetails from "./Components/BlogDetails";
+import Article from "./Components/Article";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/community" element={<Community/>} ></Route>
         <Route path="/blog" element={<Blog/>} ></Route>
         <Route path="/blogdetails" element={<BlogDetails/>} ></Route>
+        <Route path="/article" element={<Article/>} ></Route>
       </Routes>
     </Router>
     </>

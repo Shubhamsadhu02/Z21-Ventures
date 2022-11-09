@@ -52,7 +52,9 @@
 
     .home-header h1,
     .our-team--header h1,
-    .partner-header h1 {
+    .partner-header h1,
+    .press-release h1
+    {
         font-size: 40px;
         line-height: 60px;
     }
@@ -75,7 +77,9 @@
     .team-paragraph p,
     .fund-topic h3,
     .core-topic h3,
-    .partner-name h3 {
+    .partner-name h3,
+    .blog-paragraph p
+    {
         font-size: 16px;
     }
 

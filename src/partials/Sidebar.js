@@ -38,11 +38,11 @@ export default function Sidebar() {
           path: '/ourteam',
           cName: 'nav-text'
         },
-        // {
-        //   title: 'Z21 blog',
-        //   path: '/blog',
-        //   cName: 'nav-text'
-        // },
+        {
+          title: 'Z21 blog',
+          path: '/article',
+          cName: 'nav-text'
+        },
         {
             title: 'Contact us',
             path: '/contactus',

@@ -9,11 +9,11 @@ export default function Article() {
 
             <section className='blog-details__page'>
                 <div className="container" style={{ padding: "100px 180px" }}>
-                    <div className="press-release text-center mb-5">
+                    {/* <div className="press-release text-center mb-5">
                         <h1>Z21 Press Release</h1>
-                    </div>
+                    </div> */}
 
-                    <div className="blog-image order-md-1 order-2">
+                    <div className="blog-image order-md-1 order-2 text-center">
                         <img src='/images/Blog/article.png' alt='' />
                     </div>
                     <div className="blog-description order-md-2 order-1">

@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../partials/Footer'
 import Sidebar from '../partials/Sidebar'
 
-export default function BlogDetails() {
+export default function Article() {
     return (
         <>
             <Sidebar />

@@ -5,12 +5,12 @@ import Sidebar from '../partials/Sidebar';
 
 let partners = [
     {
-        image: "satyajit.png",
+        image: "Satyajit.png",
         name: "Satyajit M. Menon",
         linkdln: "https://www.linkedin.com/in/satyajitm"
     },
     {
-        image: "shantanu.png",
+        image: "Shantanu.png",
         name: "Shantanu Kumar",
         linkdln: "https://www.linkedin.com/in/shantanu-kumar-091a703/"
     },

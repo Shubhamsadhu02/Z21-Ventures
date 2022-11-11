@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useRef} from 'react';
 import { useNavigate } from "react-router-dom"
 
 import Button from 'react-bootstrap/Button';
@@ -12,6 +12,14 @@ export default function ContactUs() {
     const handleBack = () => {
         naviagte(-1);
     }
+
+    const [file, setFile] = useState([]);
+    const inputFile = useRef(null);
+
+    const handleChange = e => {
+        setFile([...file, e.target.files[0]]);
+      }
+      
     return (
         <>
 
@@ -46,10 +54,10 @@ export default function ContactUs() {
                                         <textarea type="text" style={{ marginBottom: "0" }} placeholder='Description'></textarea>
                                     </div>
                                     <div className="col-lg-12">
-                                        <div type='submit' className="attachment d-flex justify-content-between"> Attach file or link
-                                            <input type="file" />
+                                        <div className="attachment d-flex justify-content-between">Attach file or link {file.map(x => x.name).join(', ')}
+                                            <input type="file" onChange={handleChange}  ref={inputFile} placeholder='Attach file or link' />
                                             <div className="attachment-icon d-flex ">
-                                                <Button type='button'><i class="fas fa-paperclip"></i></Button>
+                                                <Button type='button' onClick={() => inputFile.current.click()}><i class="fas fa-paperclip"></i></Button>
                                                 <Button type="button" onClick={() => setModalShow(true)}><i class="fas fa-link"></i></Button>
                                                 <MyVerticallyCenteredModal
                                                     show={modalShow}

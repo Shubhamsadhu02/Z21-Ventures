@@ -21,13 +21,13 @@ export default function Article() {
                             <h3>Z21 Ventures Announces Early-Stage India-Focused Fund To Help Companies Go From Zero To One</h3>
                         </div>
                         <div className="blog-date">
-                            <h5>03 November, 2022</h5>
+                            <h5>11 November, 2022</h5>
                         </div>
                     </div>
                     <div className="article-detils">
-                        <div className="article-head mt-5">
+                        {/* <div className="article-head mt-5">
                             <h4>San Francisco, CA– Nov. 09, 2022</h4>
-                        </div>
+                        </div> */}
                         <div className="blog-paragraph mt-3">
                             <p>Z21 Ventures, an early stage venture fund with a vision to democratize early stage funding, is delighted to announce the launch of Z21 Ventures Fund, their inaugural $5M early-stage venture capital fund, to invest in early-stage companies that are looking to drive growth by leveraging technology and talent in India.
                                 <br />

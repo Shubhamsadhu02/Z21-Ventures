@@ -373,6 +373,7 @@ textarea {
     cursor: pointer;
     width: 320px;
     height: 28px;
+    padding: 0;
 }
 
 .attachment-icon i

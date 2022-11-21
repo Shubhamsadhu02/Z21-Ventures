@@ -16,7 +16,7 @@ export default function InvestmentCompanies() {
         },
         {
             image: "/images/Home/Investment/explorex.png",
-            link: "https://www.explorex.io/"
+            link: "https://www.explorex.co/"
         }
     ]
 

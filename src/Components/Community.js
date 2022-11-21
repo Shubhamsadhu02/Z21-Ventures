@@ -17,7 +17,7 @@ let partners = [
     {
         image: "Abhay.png",
         name: "Abhay Kumar",
-        linkdln: "linkedin.com/in/abhay-kumar-4b554835"
+        linkdln: "https://www.linkedin.com/in/abhay-kumar-4b554835"
     },
     {
         image: "Sandeep.png",
@@ -27,7 +27,7 @@ let partners = [
     {
         image: "Arindam.png",
         name: "Arindam Sharma",
-        linkdln: "linkedin.com/in/arindamsharma"
+        linkdln: "https://www.linkedin.com/in/arindamsharma"
     },
     {
         image: "Himavanth.png",
@@ -77,7 +77,7 @@ let partners = [
     {
         image: "Avanish.png",
         name: "Avanish Mehrotra",
-        linkdln: "linkedin.com/in/avanishmehrotra"
+        linkdln: "https://www.linkedin.com/in/avanishmehrotra"
     },
     {
         image: "Rohit.png",
@@ -152,7 +152,7 @@ let partners = [
     {
         image: "Varun_1.png",
         name: "Varun Dhawan",
-        linkdln: "linkedin.com/in/varundhawan5792"
+        linkdln: "https://www.linkedin.com/in/varundhawan5792"
     },
     {
         image: "Rishit.png",

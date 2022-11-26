@@ -326,8 +326,8 @@ textarea {
 
 .video iframe
 {
-    width: 650px;
-    height: 380px;
+    width: 360px;
+    height: 220px;
 }
 
 .short-video iframe
@@ -403,6 +403,18 @@ justify-content: center;
 width: 65%;
 }
 
+.blog-view__more button {
+    display: block;
+    padding: 16px 40px;
+    border: 1px solid #BE3222;
+    background: #BE3222;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
 .view-more__btn
 {
     display: none;
@@ -414,4 +426,19 @@ width: 65%;
     font-size: 18px;
     line-height: 140%;
     color: #111318;
+}
+
+.blog-image img
+{
+    width: 360px;
+    height: 220px;
+}
+
+.read-more a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #BE3222;
+    text-decoration: none;
 }

@@ -121,7 +121,7 @@ export default function Blog() {
                         <div className='row'>
                             <div className="col-sm-12 col-md-4 col-lg-4">
                                 <div className="blog-image">
-                                    <img src='/images/Blog/blog1.png' />
+                                    <img src='/images/Blog/blog1.png' alt='' />
                                 </div>
                                 <div className="blog-description">
                                     <div className="blog-head mt-4">

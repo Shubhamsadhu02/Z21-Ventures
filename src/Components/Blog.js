@@ -1,13 +1,16 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 import Footer from '../partials/Footer'
 import Sidebar from '../partials/Sidebar'
 import { fetchBlogs, fetchVideos } from '../Helpers/Api'
+import BlogCard from './BlogCard'
 
 export default function Blog() {
     var [blogs, setBlogs] = useState([]); 
     var [videos, setVideos] = useState([]);
+    const navigate = useNavigate();
+
     useEffect(() => {
         fetchBlogs()
         .then( result => setBlogs(result));
@@ -39,7 +42,8 @@ export default function Blog() {
                             <div className="row">
                             {
                                 videos.length < 1 ? "No Videos Present" : videos.map((video) => {
-                                    return (<div className="col-sm-12 col-md-4 col-lg-4">
+                                    return (
+                                    <div className="col-sm-12 col-md-4 col-lg-4">
                                     <div className="video">
                                         {/* For testing */}
                                         <iframe src={video.video_url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -61,7 +65,7 @@ export default function Blog() {
 
             <section className="latest-blogs mt-2 mb-5">
                 <div className="container">
-                    <div className="latest-blogs__header mb-5">
+                    <div className="latest-blogs__header">
                         <div className="row">
                             <div className="col-12">
                             <h3>Latest Z21 Blogs</h3>
@@ -73,19 +77,8 @@ export default function Blog() {
                         <div className='row'>
                             {
                                 blogs.length < 1 ? "No Blogs Present" : blogs.map((blog) => {
-                                    return (<div className="col-sm-12 col-md-4 col-lg-4">
-                                <div className="blog-image">
-                                    <img src={blog.fimg_url} alt='' />
-                                </div>
-                                <div className="blog-description">
-                                    <div className="blog-head mt-4">
-                                        <h3 style={{ color: "#111318" }}>{blog.title.rendered}</h3>
-                                    </div>
-                                    <div className="read-more">
-                                        <Link to={"/blog/"+blog.slug}>Read more</Link>
-                                    </div>
-                                </div>
-                            </div>);
+                                    return (<BlogCard thumbnail={blog.fimg_url} 
+                                                        title={blog.title.rendered} slug={blog.slug} />);
                                 })
                             }
                         </div>

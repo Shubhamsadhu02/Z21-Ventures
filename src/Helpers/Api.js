@@ -27,6 +27,23 @@ var fetchSingleBlog = async (slug) => {
     }
 }
 
+const fetchRelatedBlogs = async () => {
+    try{
+        var res = await fetch(BASE_URL+POST);
+        var json = await res.json();
+        if(json.length > 4){
+            let arr = [];
+            for(var i = 0; i<3; i++){
+                arr.push(json[Math.floor(Math.random() * json.length)]);
+            }
+            return arr;
+        }
+        return json;
+    }catch(error){
+        return [];
+    }
+}
+
 var fetchVideos = async () => {
     try{
         var res = await fetch(BASE_URL+VIDEO);
@@ -38,4 +55,6 @@ var fetchVideos = async () => {
     
 }
 
-export { fetchBlogs, fetchSingleBlog, fetchVideos };
+
+
+export { fetchBlogs, fetchSingleBlog, fetchVideos, fetchRelatedBlogs };

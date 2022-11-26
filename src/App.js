@@ -23,8 +23,8 @@ function App() {
         <Route path="/contactus" element={<ContactUs />} ></Route>
         <Route path="/portfolio" element={<OurPortfolio />} ></Route>
         <Route path="/community" element={<Community/>} ></Route>
-        <Route path="/blog" element={<Blog/>} ></Route>
-        <Route path="/blogdetails" element={<BlogDetails/>} ></Route>
+        <Route path="/blogs" element={<Blog/>} ></Route>
+        <Route path="/blog/:slug" element={<BlogDetails/>} ></Route>
         <Route path="/article" element={<Article/>} ></Route>
       </Routes>
     </Router>

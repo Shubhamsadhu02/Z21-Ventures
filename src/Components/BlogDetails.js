@@ -1,42 +1,48 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from '../partials/Footer'
 import Sidebar from '../partials/Sidebar'
+import { useParams } from 'react-router-dom'
+import { fetchSingleBlog } from '../Helpers/Api'
 
 export default function BlogDetails() {
+  var params = useParams();
+  var [blog, setBlog] = useState(false);
+  useEffect(() => {
+    fetchSingleBlog(params.slug)
+    .then(response => setBlog(response));
+  }, [params.slug]);
+
+  function createMarkup(blog) {
+    return {__html: blog.content.rendered};
+  }
+  
+  
+ if(!blog){
+  return (
+    <>
+    <Sidebar />
+    </>
+  );
+ } 
+
   return (
     <>
     <Sidebar />
 
     <section className='blog-details__page'>
       <div className="container" style={{padding: "100px 180px"}}>
-        <div className="blog-image order-md-1 order-2">
-          <img src='/images/Blog/blogimg.png' alt='' />
+        <div className="order-md-1 order-2">
+          <img src={blog.fimg_url} alt='' />
         </div>
         <div className="blog-description order-md-2 order-1">
             <div className="blog-head mt-4">
-                <h3>The perfect pitch deck - By Zack Snyder</h3>
+                <h3>{blog.title.rendered}</h3>
             </div>
             <div className="blog-date">
                 <h5>01 November, 2022</h5>
             </div>
         </div>
-        <div className="blog-paragraph mt-5">
-          <p>A flotilla of tankers carrying liquefied natural gas have been parked in a maritime traffic jam off the coast of Spain in recent days, waiting to unload their precious cargo for Europe’s power grid. In Finland, where sweltering sauna baths are a national pastime, the government is urging friends and families to take saunas together to save energy.
-          <br/>
-          <br/>
-          Both efforts are emblematic of the measures Europe is taking to increase energy supplies and conserve fuel before a winter without Russian gas.
-          <br/>
-          <br/>
-          The tactic by President Vladimir V. Putin of Russia to weaponize energy against countries supporting Ukraine has produced a startling transformation in how Europe generates and saves power. Countries are banding together to buy, borrow and build additional power supplies, while pushing out major conservation programs that recall the response to the 1970s oil crisis.
-          <br/>
-          <br/>
-          A flotilla of tankers carrying liquefied natural gas have been parked in a maritime traffic jam off the coast of Spain in recent days, waiting to unload their precious cargo for Europe’s power grid. In Finland, where sweltering sauna baths are a national pastime, the government is urging friends and families to take saunas together to save energy.
-          <br/>
-          <br/>
-          Both efforts are emblematic of the measures Europe is taking to increase energy supplies and conserve fuel before a winter without Russian gas.
-          <br/>
-          <br/>
-          The tactic by President Vladimir V. Putin of Russia to weaponize energy against countries supporting Ukraine has produced a startling transformation in how Europe generates and saves power. Countries are banding together to buy, borrow and build additional power supplies, while pushing out major conservation programs that recall the response to the 1970s oil crisis.</p>
+        <div className="blog-paragraph mt-5" dangerouslySetInnerHTML={createMarkup(blog)}>
         </div>
       </div>
     </section>

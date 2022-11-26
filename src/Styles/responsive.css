@@ -301,4 +301,8 @@
         display: flex;
     }
 
+    .latest-blogs{
+        padding: 40px 0px;
+    }
+
 }

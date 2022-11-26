@@ -24,11 +24,16 @@ export default function Blog() {
         <>
             <Sidebar />
 
-            <section className="latest-blogs" style={{ background: "rgba(81, 91, 112, 0.04)", padding: "100px 120px" }}>
+            <section className="latest-blogs" style={{ background: "rgba(81, 91, 112, 0.04)"}}>
                 <div className="container">
                     <div>
                         <div className="latest-blogs__header mb-5">
-                            <h3>Videos</h3>
+                            <div className="row">
+                                <div className="col-12">
+                                <h3>Videos</h3>
+                                </div>
+                            </div>
+                            
                         </div>
                         <div className="latest-blogs__container">
                             <div className="row">
@@ -54,10 +59,14 @@ export default function Blog() {
                 </div>
             </section>
 
-            <section className="latest-blogs mt-15 mb-15">
+            <section className="latest-blogs mt-2 mb-5">
                 <div className="container">
                     <div className="latest-blogs__header mb-5">
-                        <h3>Latest Z21 Blogs</h3>
+                        <div className="row">
+                            <div className="col-12">
+                            <h3>Latest Z21 Blogs</h3>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="latest-blogs__container">

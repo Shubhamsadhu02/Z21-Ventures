@@ -335,6 +335,9 @@ textarea {
     width: 178px;
     height: 112px;
 }
+.latest-blogs{
+    padding: 100px 120px;
+}
 
 .latest-blogs__header h3
 {

@@ -40,7 +40,7 @@ export default function Sidebar() {
         },
         {
           title: 'Z21 blog',
-          path: '/blog',
+          path: '/blogs',
           cName: 'nav-text'
         },
         {

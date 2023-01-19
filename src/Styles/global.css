@@ -335,6 +335,9 @@ textarea {
     width: 178px;
     height: 112px;
 }
+.latest-blogs{
+    padding: 100px 120px;
+}
 
 .latest-blogs__header h3
 {
@@ -343,11 +346,23 @@ textarea {
     line-height: 28px;
     color: #111318;
 }
+.blog-image{
+    cursor: pointer;
+}
 
 .blog-image img
 {
     width: 100%;
     height: 435px;
+}
+
+.blog-description .blog-head{
+    color: #111318;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    height: 40px;
+    font-size: clamp(20px, 2.5vw, 20px); 
 }
 
 .attachment

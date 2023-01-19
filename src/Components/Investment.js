@@ -143,7 +143,7 @@ export default function Investment() {
     <section className='interaction mt-15 mb-15'>
         <div className="container">
             <div className="row">
-                <div className="col-lg-5 d-flex flex-column justify-content-center align-items-center" style={{paddingRight: "65px"}}>
+                <div className="col-lg-5 d-flex flex-column justify-content-center" style={{paddingRight: "65px"}}>
                     <div className="interaction-header">
                         <h2>Interaction with LPs</h2>
                     </div>

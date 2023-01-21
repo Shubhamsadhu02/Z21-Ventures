@@ -5,6 +5,7 @@ import Footer from '../partials/Footer'
 import Sidebar from '../partials/Sidebar'
 import { fetchBlogs, fetchVideos } from '../Helpers/Api'
 import BlogCard from './BlogCard'
+import CircularProgress from '@mui/material/CircularProgress';
 
 export default function Blog() {
     var [blogs, setBlogs] = useState([]); 
@@ -21,7 +22,7 @@ export default function Blog() {
     
     function createTitleMarkup(data) {
         return {__html: data.rendered};
-      }
+    }
     
     return (
         <>
@@ -76,7 +77,7 @@ export default function Blog() {
                     <div className="latest-blogs__container">
                         <div className='row'>
                             {
-                                blogs.length < 1 ? "No Blogs Present" : blogs.map((blog) => {
+                                blogs.length < 1 ? <CircularProgress/> : blogs.map((blog) => {
                                     return (<BlogCard thumbnail={blog.fimg_url} 
                                                         title={blog.title.rendered} slug={blog.slug} />);
                                 })

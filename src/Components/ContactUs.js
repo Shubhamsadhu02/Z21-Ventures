@@ -18,7 +18,7 @@ export default function ContactUs() {
 
     const handleChange = e => {
         setFile([...file, e.target.files[0]]);
-      }
+    }
       
     return (
         <>

@@ -26,8 +26,8 @@ export default function ContactUs() {
             <div className="overlay"></div>
             <section className='contactus' style={{ paddingBottom: "100px" }}>
                 <div className="container mt-3">
-                    <div className="cross-img d-flex justify-content-end" onClick={handleBack}>
-                        <img src='images/cross.svg' alt='' />
+                    <div className="cross-img d-flex justify-content-end">
+                        <img src='images/cross.svg' alt='' onClick={handleBack} />
                     </div>
                     <div className="row">
                         <div className="col-sm-12 col-lg-5 d-flex justify-content-center" style={{ zIndex: 15 }}>

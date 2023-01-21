@@ -361,7 +361,6 @@ textarea {
     margin-top: 20px;
     font-size: 20px;
     font-weight: 700;
-    height: 40px;
     font-size: clamp(20px, 2.5vw, 20px); 
 }
 

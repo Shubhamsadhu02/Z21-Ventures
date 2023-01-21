@@ -18,9 +18,13 @@
     .contact-nav {
         display: none;
     }
-
+    
+    .navbar-toggle
+    {
+        justify-content: end;
+    }
     .menu-bars {
-        margin-left: 0;
+        margin-right: 30px;
         font-size: 1.5rem;
     }
 
@@ -246,6 +250,11 @@
         height: 35px;
     }
 
+    .cross-img img{
+        width: 15px;
+        height: 15px;
+    }
+
     .partner .row .partner-list__container {
         display: flex;
         justify-content: center;
@@ -299,6 +308,7 @@
     .partner .row .partner-list__container:nth-child(6)
     {
         display: flex;
+        height: 360px;
     }
 
     .latest-blogs{

@@ -19,7 +19,7 @@ export default function Home() {
                 <p>A venture fund for early-stage companies that are looking to drive growth by leveraging technology and talent in India</p>
             </div>
             <div className="contact-btn mt-5">
-                <Link to={'/ContactUs'}><button type='submit'>Contact us</button></Link>
+                <Link to={'/contact'}><button type='submit'>Contact us</button></Link>
             </div>
         </div>
     </section>

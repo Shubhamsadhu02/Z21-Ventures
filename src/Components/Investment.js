@@ -201,7 +201,7 @@ export default function Investment() {
         </div>
     </section>
 
-    <InvestmentCompanies />
+    {/* <InvestmentCompanies /> */}
 
     <Footer />
     </>

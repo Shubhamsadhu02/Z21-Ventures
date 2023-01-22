@@ -45,7 +45,7 @@ export default function Sidebar() {
         },
         {
             title: 'Contact us',
-            path: '/contactus',
+            path: '/contact',
             cName: 'nav-text'
         }
     ];
@@ -63,7 +63,7 @@ export default function Sidebar() {
               <a href="/" className="navbar-brand"><img src="/images/ventureslogo.svg" alt='' height="28" width="182" /></a>
           </div>
           <div className="contact-nav">
-              <Link to={'/ContactUs'}>Contact us</Link>
+              <Link to={'/contact'}>Contact us</Link>
               {/* <Link to="#">
                 <ContactUs onClick={showContact}/>
               </Link> */}

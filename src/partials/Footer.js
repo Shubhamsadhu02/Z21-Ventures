@@ -17,7 +17,7 @@ export default function Footer() {
                                     <Link to={'/investment'}>Investment Thesis</Link>
                                 </li>
                                 <li>
-                                    <Link to={'/ContactUs'}>Contact us</Link>
+                                    <Link to={'/contact'}>Contact us</Link>
                                 </li>
                             </ul>
                         </div>

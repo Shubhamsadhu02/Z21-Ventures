@@ -3,8 +3,6 @@ import Footer from '../partials/Footer'
 
 import Sidebar from '../partials/Sidebar'
 
-import InvestmentCompanies from './InvestmentCompanies'
-
 export default function Investment() {
   return (
     <>
@@ -200,8 +198,6 @@ export default function Investment() {
             </div>
         </div>
     </section>
-
-    {/* <InvestmentCompanies /> */}
 
     <Footer />
     </>

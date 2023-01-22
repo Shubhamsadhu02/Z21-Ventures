@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom"
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
+import { handleSubmit } from '../Helpers/Api'
+
 export default function ContactUs() {
 
     const [modalShow, setModalShow] = React.useState(false);
@@ -19,7 +21,7 @@ export default function ContactUs() {
     const handleChange = e => {
         setFile([...file, e.target.files[0]]);
     }
-      
+
     return (
         <>
 
@@ -39,26 +41,26 @@ export default function ContactUs() {
                             <div className="contact-head mb-4">
                                 <h2>Contact us</h2>
                             </div>
-                            <form className='contact-form'>
+                            <form className='contact-form' method="post" action="/" onSubmit={handleSubmit}>
                                 <div className="row">
                                     <div className="col-lg-12">
-                                        <input type="text" placeholder="Full Name"></input>
+                                        <input type="text" id="fullName" placeholder="Full Name"></input>
                                     </div>
                                     <div className="col-lg-12">
-                                        <input type="email" placeholder="Email"></input>
+                                        <input type="email" id="email" placeholder="Email"></input>
                                     </div>
                                     <div className="col-lg-12">
-                                        <input type="text" placeholder="Subject"></input>
+                                        <input type="text" id="subject" placeholder="Subject"></input>
                                     </div>
                                     <div className="col-lg-12">
-                                        <textarea type="text" style={{ marginBottom: "0" }} placeholder='Description'></textarea>
+                                        <textarea type="text" id="description" style={{ marginBottom: "0" }} placeholder='Description'></textarea>
                                     </div>
                                     <div className="col-lg-12">
                                         <div className="attachment d-flex justify-content-between">Attach file or link {file.map(x => x.name).join(', ')}
                                             <input type="file" onChange={handleChange}  ref={inputFile} placeholder='Attach file or link' />
                                             <div className="attachment-icon d-flex ">
-                                                <Button type='button' onClick={() => inputFile.current.click()}><i class="fas fa-paperclip"></i></Button>
-                                                <Button type="button" onClick={() => setModalShow(true)}><i class="fas fa-link"></i></Button>
+                                                <Button type='button' id="attachment" onClick={() => inputFile.current.click()}><i class="fas fa-paperclip"></i></Button>
+                                                <Button type="button" id="addLink" onClick={() => setModalShow(true)}><i class="fas fa-link"></i></Button>
                                                 <MyVerticallyCenteredModal
                                                     show={modalShow}
                                                     onHide={() => setModalShow(false)}
@@ -67,7 +69,7 @@ export default function ContactUs() {
                                         </div>
                                     </div>
                                     <div className="col-lg-12 mt-4">
-                                        <button className='form-submit' type='submit'>Send</button>
+                                        <button className='form-submit' type='submit' id="submitBtn">Send</button>
                                     </div>
                                 </div>
                             </form>
@@ -95,8 +97,8 @@ function MyVerticallyCenteredModal(props) {
             </Modal.Header>
             <Modal.Body>
                 <form className='contact-form'>
-                    <input type="text" placeholder="Name Link"></input>
-                    <input type="url" placeholder="Paste link here"></input>
+                    <input type="text" id="nameLink" placeholder="Name Link"></input>
+                    <input type="url" id="urlLink" placeholder="Paste link here"></input>
                     <button className='form-submit form-submit1 mt-5' type='submit'>Add</button>
                 </form>
             </Modal.Body>

@@ -586,7 +586,7 @@ let partners = [
     ,
 
     {
-        image: "Amitabh Mitra.png",
+        image: "Amitabh Mitra.jpeg",
         name: "Amitabh Mitra",
         postion: "Principal Security Architect",
         linkdln: "https://www.linkedin.com/in/amitabh-mitra-582b93/"

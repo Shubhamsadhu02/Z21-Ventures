@@ -21,6 +21,27 @@ export default function InvestmentCompanies() {
         {
             image: "/images/Home/Investment/KidEx.png",
             link: "https://kid-ex.com/"
+        },
+        {
+            image: "/images/Home/Investment/optwise.png",
+            link: "https://www.optiwise.ai/"
+        },
+        {
+            image: "/images/Home/Investment/livsyt.png",
+            link: "https://livsyt.com/"
+        },
+        {
+            image: "/images/Home/Investment/moneyclub.png",
+            link: "https://moneyclubber.com/"
+        },
+        {
+            image: "/images/Home/Investment/perceptyne.png",
+            link: "https://www.perceptyne.com/"
+        }
+        ,
+        {
+            image: "/images/Home/Investment/stealth.png",
+            link: "https://www.linkedin.com/company/stealth-startup-51/people/"
         }
     ]
 

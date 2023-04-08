@@ -19,7 +19,7 @@ let partners = [
     {
         image: "Anand Akela.png",
         name: "Anand Akela",
-        postion: "Founder & CEO at BootUP",
+        postion: "CMO at Acalvio, TiE SV Board Member",
         linkdln: "https://www.linkedin.com/in/anandakela/"
     }
     ,

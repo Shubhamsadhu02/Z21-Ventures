@@ -5,7 +5,7 @@ import Sidebar from '../partials/Sidebar';
 let partners = [
     {
         image: "Adhithi Shweta Adhi.png",
-        name: "SAdhithi Shweta Adhi",
+        name: "Adhithi Shweta Adhi",
         postion: "GM and business leader at Invoice2Go",
         linkdln: "https://www.linkedin.com/in/adhithi-shwetha-adhi-a539958/"
     },
@@ -322,7 +322,7 @@ let partners = [
     {
         image: "Tito Poombra.png",
         name: "Tito Poombra",
-        postion: "Advisor and outsource, CCO",
+        postion: "Chief Compliance Officer",
         linkdln: "https://www.linkedin.com/in/"
     }
     ,
@@ -354,12 +354,12 @@ let partners = [
         linkdln: "linkedin.com/in/ranadibyendu"
     }
     ,
-    {
-        image: "Sandeep Randhawa.png",
-        name: "Sandeep Randhawa",
-        postion: "Customer Success leader at AWS",
-        linkdln: "https://www.linkedin.com/in/sarandhawa/"
-    }
+    // {
+    //     image: "Sandeep Randhawa.png",
+    //     name: "Sandeep Randhawa",
+    //     postion: "Customer Success leader at AWS",
+    //     linkdln: "https://www.linkedin.com/in/sarandhawa/"
+    // }
     ,
     {
         image: "Aravind Ratnam.png",
@@ -586,7 +586,7 @@ let partners = [
     ,
 
     {
-        image: "Amitabh Mitra.jpeg",
+        image: "Amitabh Mitra.png",
         name: "Amitabh Mitra",
         postion: "Principal Security Architect",
         linkdln: "https://www.linkedin.com/in/amitabh-mitra-582b93/"

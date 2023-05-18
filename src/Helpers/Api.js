@@ -66,17 +66,15 @@ const handleSubmit = async (event) => {
     formdata.append('attachment', document.getElementById("attachment"));
 
     var requestOptions = {
-    method: 'GET',
+    method: 'POST',
     body: formdata,
     redirect: 'follow'
     };
 
     fetch("z21.ventures/mail/index.php", requestOptions)
-    .then(response => response.text())
+    .then(response => response.body())
     .then(result => console.log(result))
     .catch(error => console.log('error', error));
 }
-
-
 
 export { fetchBlogs, fetchSingleBlog, fetchVideos, fetchRelatedBlogs, handleSubmit };

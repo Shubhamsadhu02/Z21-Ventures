@@ -13,7 +13,7 @@ export default function Article() {
                         <h1>Z21 Press Release</h1>
                     </div> */}
 
-                    <div className="blog-image order-md-1 order-2 text-center">
+                    <div className="order-md-1 order-2 text-center">
                         <img src='/images/Blog/article.png' alt='' />
                     </div>
                     <div className="blog-description order-md-2 order-1">

@@ -132,6 +132,15 @@ textarea {
     color: #111318;
 }
 
+.partner-position h3{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    color: #515B70;
+}
+
+
+
 .fund-paragraph p
 {
     font-weight: 400;
@@ -361,7 +370,6 @@ textarea {
     margin-top: 20px;
     font-size: 20px;
     font-weight: 700;
-    height: 40px;
     font-size: clamp(20px, 2.5vw, 20px); 
 }
 

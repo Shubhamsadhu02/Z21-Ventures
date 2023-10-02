@@ -1,10 +1,11 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { Link,useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import Footer from '../partials/Footer'
 import Sidebar from '../partials/Sidebar'
 import { fetchBlogs, fetchVideos } from '../Helpers/Api'
 import BlogCard from './BlogCard'
+import CircularProgress from '@mui/material/CircularProgress';
 
 export default function Blog() {
     var [blogs, setBlogs] = useState([]); 
@@ -21,13 +22,13 @@ export default function Blog() {
     
     function createTitleMarkup(data) {
         return {__html: data.rendered};
-      }
+    }
     
     return (
         <>
             <Sidebar />
 
-            <section className="latest-blogs" style={{ background: "rgba(81, 91, 112, 0.04)"}}>
+            {/* <section className="latest-blogs" style={{ background: "rgba(81, 91, 112, 0.04)"}}>
                 <div className="container">
                     <div>
                         <div className="latest-blogs__header mb-5">
@@ -45,7 +46,7 @@ export default function Blog() {
                                     return (
                                     <div className="col-sm-12 col-md-4 col-lg-4">
                                     <div className="video">
-                                        {/* For testing */}
+                                        
                                         <iframe src={video.video_url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                     <div className="video-description">
@@ -61,7 +62,7 @@ export default function Blog() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="latest-blogs mt-2 mb-5">
                 <div className="container">
@@ -76,7 +77,7 @@ export default function Blog() {
                     <div className="latest-blogs__container">
                         <div className='row'>
                             {
-                                blogs.length < 1 ? "No Blogs Present" : blogs.map((blog) => {
+                                blogs.length < 1 ? <CircularProgress/> : blogs.map((blog) => {
                                     return (<BlogCard thumbnail={blog.fimg_url} 
                                                         title={blog.title.rendered} slug={blog.slug} />);
                                 })

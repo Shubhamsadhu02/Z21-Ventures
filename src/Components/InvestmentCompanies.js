@@ -42,6 +42,14 @@ export default function InvestmentCompanies() {
         {
             image: "/images/Home/Investment/stealth.png",
             link: "https://www.linkedin.com/company/stealth-startup-51/people/"
+        },
+        {
+            image: "/images/Home/Investment/earkart.png",
+            link: "https://best-hearing-aid.earkart.in/"
+        },
+        {
+            image: "/images/Home/Investment/inspecthoa.png",
+            link: "https://inspecthoa.com/"
         }
     ]
 
